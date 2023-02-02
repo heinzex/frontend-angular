@@ -1,0 +1,35 @@
+h2 {
+  font-size: 22pt;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 94vw;
+}
+.cont-barra {
+    margin-top: 16px;
+    width: 100%;
+    display: list-item;
+    text-align: center;
+}
+.barra {
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+    height: 20px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 4px;
+}
+.carga {
+    height: 100%;
+    border-radius: 4px;
+    background:repeating-linear-gradient(
+        45deg,
+        #5498ff,
+        #5498ff 10px,
+        #3d65a1 10px,
+        #4784df 20px
+      );
+}
+.contenedor{
+    width: 100%;
+}
+

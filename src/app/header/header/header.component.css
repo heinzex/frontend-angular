@@ -1,0 +1,45 @@
+.container {
+  height: 60px;
+  background-color: rgb(49, 49, 49);
+  position: relative;
+}
+.btn {
+    height: 30px;
+    width: 60px;
+    float: right;
+    position: relative;
+    top: 25%;
+    margin-right: 10px;
+  }
+.fa-instagram {
+  float: right;
+  padding-right: 15px;
+  position: relative;
+  top: 25%;
+  cursor:pointer
+}
+.fa-twitter {
+  float: right;
+  padding-right: 15px;
+  position: relative;
+  top: 25%;
+  cursor:pointer
+}
+.user{
+  float: left;
+  position: relative;
+  top: 18px;
+  color: white;
+  margin-left: 14px;
+}
+.formlogin{
+  background-color: rgb(59, 59, 59);
+  position:absolute;
+  right: -190px;
+  margin-right: 200px;
+  border-radius: 7px;
+  display: list-item;
+
+}
+
+

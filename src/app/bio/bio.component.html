@@ -1,0 +1,17 @@
+<div>
+  <p class="Nombre">Enzo Yerna</p>
+  <p class="bio">Iniciante en programación.</p>
+  <p class="bio">
+    Tucumán, Argentina.
+    <a (click)="onClick()" class="link">Informacion de contacto</a>
+  </p>
+
+  <div *ngIf="informacion">
+    <p>info extra</p>
+  </div>
+  <div class="botones">
+    <button type="button" class="btn-1 boton">Tengo interés en</button>
+    <button type="button" class="boton boton2">Añadir sección</button>
+    <button type="button" class="boton boton2">Más</button>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+h2 {
+  font-size: 22pt;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+img {
+  width: 5vw;
+  height: 7vw;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 20px;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+p {
+  margin-top: 7px;
+}
+.items {
+  display: list-item;
+  
+}
+p {
+    margin-left: 8px;
+    font-size: 9pt;
+}
+.title{
+    font-weight: bold;
+    font-size: 15pt;
+}

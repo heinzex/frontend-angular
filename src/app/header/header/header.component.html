@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="cont-user">
+    <p class="user">Enzo Yerna</p>
+  </div>
+  <button type="button" class="btn" (click)="Login()">Login</button>
+  <i (click)="onClickIG()" href="www.instagram.com" class="fab fa-instagram fa-2x" style="color: #e234b7"></i>
+  <i (click)="onClickTW()" class="fab fa-twitter fa-2x" style="color: #55acee"></i>
+</div>
+<div *ngIf="formlogin" class="cont-form" >
+  <app-login class="formlogin"></app-login>
+</div>

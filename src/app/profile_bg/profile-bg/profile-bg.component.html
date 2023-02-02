@@ -1,0 +1,5 @@
+<div class="profile">
+  <img [src]="profile_bg" alt="bg" class="profile-bg" *ngIf="Login" />
+  <img src="/assets/bg.jpg" alt="bg" class="profile-bg" *ngIf="!Login" />
+  <app-profile-pic></app-profile-pic>
+</div>

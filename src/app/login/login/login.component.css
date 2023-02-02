@@ -1,0 +1,27 @@
+form {
+  width: 320px;
+  height: 150px;
+  color: white;
+  display: list-item;
+}
+form * {
+  margin-left: 10px;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: -1px;
+}
+.cont-controls {
+  margin-top: 20px;
+}
+.input{
+    width: 80%;
+    border-radius: 4px;
+}
+.boton{
+    margin-top: 12px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(226, 194, 9);
+    height: 25px;
+}
